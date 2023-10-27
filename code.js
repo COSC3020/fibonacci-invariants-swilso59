@@ -10,7 +10,7 @@ function fib(n) {
     }
     else {
         const fibArr = fib(n-1);
-        const nextFib = fibArr[n-2] + fibArr[n-3];
+        const nextFib = fibArr[n-1] + fibArr[n-2];
         fibArr.push(nextFib);
         return fibArr;
     }
