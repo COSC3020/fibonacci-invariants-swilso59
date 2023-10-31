@@ -27,3 +27,5 @@ about it at the start of each recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+In the function we start by building an array of n size containing the fibinachi numbers. We know that the fib numbers of an array lengt 3 or less are [0,1,1] so with that being given to us we can calculate the rest of values of the array to any n length we want by using recursion. Since the intital values of the fib numbers are given this ensure that we are starting off with the correct values to create the new values. I beleive the invariance would be something along the lines of T(n) = T(n-1) + c. This means that We are simply adding already known values from the array to creat the new values needed to create the correct size of the array. 
